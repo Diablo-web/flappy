@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { makeServer } from "./server";
 
-// Call make Server
+// Call make Servernpm i miragejs
 makeServer();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

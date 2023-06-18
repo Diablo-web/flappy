@@ -1,25 +1,11 @@
-import logo from './logo.svg';
+import Mockman from "mockman-js";
 import './App.css';
-// import MockMan from "mockman-js";
+
 function App() {
   return (
-    <div className="App"> 
-    {/* <Route path="/mockman" element={<MockMan />} /> */}
-      
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">
+      <h1>Hello World</h1>
+      <Mockman />
     </div>
   );
 }
